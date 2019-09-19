@@ -8,8 +8,6 @@ source:
   path: ../
 
 build:
-  noarch: python
-  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -31,5 +29,5 @@ about:
   license: {{ data["license"] }}
   license_file: LICENSE
   summary: {{ data["description"] }}
-  doc_url: {{ data["project_urls"]["Documentation"] }}
+  doc_url: {{ data["project_urls"]["Source"] }}
   dev_url: {{ data["project_urls"]["Source"] }}
