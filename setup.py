@@ -67,7 +67,6 @@ if __name__ == "__main__":
         project_urls={
             "Trackers": about["__bugtracker_url__"],
             "Source": about["__source_url__"],
-            "Documentation": about["__docs_url__"],
         },
         setup_requires=setup_requirements,
         tests_require=test_requirements,

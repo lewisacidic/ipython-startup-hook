@@ -22,8 +22,7 @@ __copyright__ = "Copyright (c) 2019 Rich Lewis"
 __author__ = "Rich Lewis"
 __author_email__ = "opensource@richlew.is"
 
-__url__ = "https://lewisacidic.github.io/ipython-startup-hook"
-__docs_url__ = "https://lewisacidic.github.io/ipython-startup-hook/docs"
+__url__ = "https://github.com/lewisacidic/ipython-startup-hook"
 __source_url__ = "https://github.com/lewisacidic/ipython-startup-hook"
 __bugtracker_url__ = "https://github.com/lewisacidic/ipython-startup-hook/issues"
 __download_url__ = "https://github.com/lewisacidic/ipython-startup-hook/releases"
@@ -46,7 +45,6 @@ __all__ = [
     "__copyright__",
     "__description__",
     "__distname__",
-    "__docs_url__",
     "__download_url__",
     "__keywords__",
     "__license__",
