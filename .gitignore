@@ -125,3 +125,6 @@ dmypy.json
 
 # Test artifacts
 reports/
+
+# VSCode settings
+.vscode/
