@@ -21,9 +21,9 @@ def read_readme():
         return readme.read()
 
 
-setup_requirements = ["pip", "setuptools", "wheel"]
+setup_requirements = ["pip", "wheel"]
 
-install_requirements = []
+install_requirements = ["ipython"]
 
 lint_requirements = [
     "flake8",
