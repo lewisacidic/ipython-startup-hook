@@ -8,6 +8,8 @@ source:
   path: ../
 
 build:
+  number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -31,3 +33,6 @@ about:
   summary: {{ data["description"] }}
   doc_url: {{ data["project_urls"]["Source"] }}
   dev_url: {{ data["project_urls"]["Source"] }}
+
+meta:
+  recipe-maintainer: Rich Lewis <opensource@richlew.is>
